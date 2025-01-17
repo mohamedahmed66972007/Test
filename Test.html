@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختراق جهازك 😂</title>
+    <style>
+        body {
+            background-color: black;
+            color: lime;
+            font-family: monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>لقد تم اختراق جهازك! 😱</h1>
+    <p>نعم، أنا أرى كل شيء الآن...</p>
+    <p>لا تحاول إغلاق الصفحة!</p>
+    <script>
+        let counter = 0;
+        setInterval(() => {
+            counter++;
+            document.body.innerHTML += `<p>تم إرسال ${counter} صورة من جهازك! 📸</p>`;
+        }, 2000);
+    </script>
+</body>
+</html>
